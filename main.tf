@@ -10,7 +10,7 @@ variable "params" {
     {name = "roboshop.dev.frontend.user_url", type = "String",value = "http://user-dev.sandeepreddymunagala123.xyz/"},
     {name = "roboshop.dev.frontend.catalogue_url", type = "String",value = "http://catalogue-dev.sandeepreddymunagala123.xyz/"},
     {name = "roboshop.dev.frontend.cart_url", type = "String",value = "http://cart-dev.sandeepreddymunagala123.xyz/"},
-    {name = "roboshop.dev.frontend.shipping._url", type = "String",value = "http://shipping-dev.sandeepreddymunagala123.xyz/"},
+    {name = "roboshop.dev.frontend.shipping_url", type = "String",value = "http://shipping-dev.sandeepreddymunagala123.xyz/"},
     {name = "roboshop.dev.frontend.payment_url", type = "String",value = "http://payment-dev.sandeepreddymunagala123.xyz/"}
   ]
 }
