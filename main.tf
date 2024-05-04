@@ -7,11 +7,11 @@ resource "aws_ssm_parameter" "parameters" {
 
 variable "params" {
   default = [
-    {name = "roboshop.dev.frontend.user_url", type = "String",value = "http://user-dev.sandeepreddymunagala123.xyz:8000/"},
-    {name = "roboshop.dev.frontend.catalogue_url", type = "String",value = "http://catalogue-dev.sandeepreddymunagala123.xyz:8000/"},
-    {name = "roboshop.dev.frontend.cart_url", type = "String",value = "http://cart-dev.sandeepreddymunagala123.xyz:8000/"},
-    {name = "roboshop.dev.frontend.shipping_url", type = "String",value = "http://shipping-dev.sandeepreddymunagala123.xyz:8000/"},
-    {name = "roboshop.dev.frontend.payment_url", type = "String",value = "http://payment-dev.sandeepreddymunagala123.xyz:8000/"},
+    {name = "roboshop.dev.frontend.user_url", type = "String",value = "http://user-dev.sandeepreddymunagala123.xyz:8080/"},
+    {name = "roboshop.dev.frontend.catalogue_url", type = "String",value = "http://catalogue-dev.sandeepreddymunagala123.xyz:8080/"},
+    {name = "roboshop.dev.frontend.cart_url", type = "String",value = "http://cart-dev.sandeepreddymunagala123.xyz:8080/"},
+    {name = "roboshop.dev.frontend.shipping_url", type = "String",value = "http://shipping-dev.sandeepreddymunagala123.xyz:8080/"},
+    {name = "roboshop.dev.frontend.payment_url", type = "String",value = "http://payment-dev.sandeepreddymunagala123.xyz:8080/"},
     {name = "roboshop.dev.cart.redis_host", type = "String",value = "redis-dev.sandeepreddymunagala123.xyz"},
     {name = "roboshop.dev.cart.catalogue_host", type = "String",value = "catalogue-dev.sandeepreddymunagala123.xyz"},
     {name = "roboshop.dev.cart.catalogue_port", type = "String",value = "8080"},
