@@ -29,7 +29,7 @@ variable "params" {
     { name = "roboshop.dev.shipping.db_host", value = "mysql-dev.sandeepreddymunagala123.xyz", type = "String" },
     { name = "roboshop.dev.user.mongo", value = "true", type = "String" },
     { name = "roboshop.dev.user.redis_host", value = "redis-dev.sandeepreddymunagala123.xyz", type = "String" },
-    { name = "roboshop.dev.user.mongo_url", value = "mongodb://mongodb-dev.sandeepreddymunagala123.xyz:27017/users", type = "String" },
+    { name = "roboshop.dev.user.mongo_url", value = "mongodb://mongodb-dev.sandeepreddymunagalca123.xyz:27017/users", type = "String" },
 
 
     ### passwords will be never part of git repos
