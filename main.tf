@@ -25,11 +25,11 @@ variable "params" {
     {name = "roboshop.dev.payment.amqp_user", type = "String",value = "roboshop"},
     {name = "roboshop.dev.dispatch.amqp_host", type = "String",value = "rabbitmq-dev.sandeepreddymunagala123.xyz"},
     {name = "roboshop.dev.dispatch.amqp_user", type = "String",value = "roboshop"},
-    { name = "roboshop.dev.shipping.cart_endpoint", value = "cart-dev.sandeepreddymunagal123.xyz:8080", type = "String" },
-    { name = "roboshop.dev.shipping.db_host", value = "mysql-dev.sandeepreddymunagal123.xyz", type = "String" },
+    { name = "roboshop.dev.shipping.cart_endpoint", value = "cart-dev.sandeepreddymunagala123.xyz:8080", type = "String" },
+    { name = "roboshop.dev.shipping.db_host", value = "mysql-dev.sandeepreddymunagala123.xyz", type = "String" },
     { name = "roboshop.dev.user.mongo", value = "true", type = "String" },
-    { name = "roboshop.dev.user.redis_host", value = "elasticache-dev.nud0cy.clustercfg.use1.cache.amazonaws.com", type = "String" },
-    { name = "roboshop.dev.user.mongo_url", value = "mongodb://mongodb-dev.sandeepreddymunagal123.xyz:27017/users", type = "String" },
+    { name = "roboshop.dev.user.redis_host", value = "redis-dev.sandeepreddymunagala123.xyz", type = "String" },
+    { name = "roboshop.dev.user.mongo_url", value = "mongodb://mongodb-dev.sandeepreddymunagala123.xyz:27017/users", type = "String" },
 
 
     ### passwords will be never part of git repos
