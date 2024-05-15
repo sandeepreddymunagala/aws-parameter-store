@@ -30,12 +30,13 @@ variable "params" {
     { name = "roboshop.dev.user.mongo", value = "true", type = "String" },
     { name = "roboshop.dev.user.redis_host", value = "redis-dev.sandeepreddymunagala123.xyz", type = "String" },
     { name = "roboshop.dev.user.mongo_url", value = "mongodb://mongodb-dev.sandeepreddymunagala123.xyz:27017/users", type = "String" },
-
+    {name = "roboshop.dev.rabbitmq.amqp_user", type = "String",value = "roboshop"},
+    {name = "roboshop.dev.mysql.username", type = "String",value = "roboshop"},
 
     ### passwords will be never part of git repos
     {name = "roboshop.dev.payment.amqp_pass", type = "SecureString",value = "roboshop123"},
     {name = "roboshop.dev.dispatch.amqp_pass", type = "SecureString",value = "roboshop123"},
-    {name = "roboshop.dev.rabbitmq.amqp_user", type = "String",value = "roboshop"},
     {name = "roboshop.dev.rabbitmq.amqp_pass", type = "SecureString",value = "roboshop123"}
+    {name = "roboshop.dev.mysql.password", type = "SecureString",value = "roboshop123"}
   ]
 }
