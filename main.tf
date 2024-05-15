@@ -36,7 +36,7 @@ variable "params" {
     ### passwords will be never part of git repos
     {name = "roboshop.dev.payment.amqp_pass", type = "SecureString",value = "roboshop123"},
     {name = "roboshop.dev.dispatch.amqp_pass", type = "SecureString",value = "roboshop123"},
-    {name = "roboshop.dev.rabbitmq.amqp_pass", type = "SecureString",value = "roboshop123"}
-    {name = "roboshop.dev.mysql.password", type = "SecureString",value = "roboshop123"}
+    {name = "roboshop.dev.rabbitmq.amqp_pass", type = "SecureString",value = "roboshop123"},
+    {name = "roboshop.dev.mysql.password", type = "SecureString",value = "roboshop123"},
   ]
 }
